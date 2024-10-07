@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function display()
+        {
+            alert("this is event examle!! ")
+        }
+        document.write("<br>")
+        function display()
+        {
+            alert("plese enter city!!!");
+        }
+       document.write("<br>")
+       function getval()
+       {
+        var stuname= document.f1.nm.value;
+        var city=document.f1.ct.value;
+        alert("my name is"+stuname+"city name is"+city)
+       }
+    </script>
+</head>
+<body bgcolor="aqua">
+
+    <button onclick="display()">Click hare</button>
+    <br>
+    Enter name : <input type="text">
+    <br>
+    Enter city : <input type="text" onfocus="display">
+    <br>
+    <h1 align="center">My Form</h1>
+    <form name="f1">
+        Enter Name :<input type="text" name="nm">
+        <br>
+        Enter City :<input type="text" name="ct">
+        <br>
+        <button onclick="getval()">Click hare</button>
+    </form>
+</body>
+</html>
